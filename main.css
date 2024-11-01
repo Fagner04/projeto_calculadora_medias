@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;    
+    /* background-color: rgb(58, 58, 62); */
+}
+
+body {
+    padding-top: 100px;
+    background-color: rgb(223, 223, 223);
+}
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 60px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    background: linear-gradient(100deg, rgba(218, 165, 165, 0.573) 0% ,rgba(252, 156, 2, 0.321) 100%);
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 19px;
+    border-radius: 19px;
+    border-bottom: 10px rgba(221, 91, 184, 0.47) solid;
+}
+
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-betweenw;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000 ;
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+
+form button {
+    background-color: rgb(116, 203, 36);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+ }
+
+ table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ table{ /*linha de borda*/
+    border-spacing: 0px;
+    width: 100%;
+ }
+
+ table  td{
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(174, 168, 168);
+ }
+
+ table td img {
+    height: 29px;
+ }
+
+ .resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+ }
+
+ .aprovado {
+    /* background-color: green; */
+    background-color: rgb(116, 203, 36);
+ }
+
+ .reprovado {
+    background-color: red;
+ }
